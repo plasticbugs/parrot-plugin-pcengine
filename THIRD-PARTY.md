@@ -10,7 +10,7 @@ The plugin's own code, in `src/`, is under the GNU GPL, version 3
 | `sdk/firmware/revc/sdk/tinyusb/` | [TinyUSB](https://github.com/hathach/tinyusb) (Ha Thach and contributors), with the cart's fixes, listed in its `VENDORED.md` | MIT (`sdk/firmware/revc/sdk/tinyusb/LICENSE`) |
 | `cmake/pico_sdk_import.cmake` | from the [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk) | BSD 3-Clause |
 
-PCE-GO's files carry no notice of their own. `COPYING` beside them is the
+PCE-GO's files have no license notice in them. `COPYING` beside them is the
 text of the GPL, version 2, and HuExpress and Hu-Go! were under the GPL,
 version 2 or later. pico-pcePlus, which this copy and its fixes come from,
 is under the GPL, version 3, so the plugin as a whole is too.
