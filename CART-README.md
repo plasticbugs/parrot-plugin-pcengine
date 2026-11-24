@@ -22,7 +22,7 @@ On the ColecoVision controller:
 - Keypad 3 switches between 192 lines at full size and all the lines squeezed to fit.
 - Keypad 0 switches between smooth scrolling and scrolling by tiles.
 - Keypad 7 turns rapid fire on I on and off. Keypad 9 does the same for II.
-- Press RESET on the console to go back to the menu.
+- Press RESET on the console to go back to the menu, or hold both fire buttons and \* for 2 seconds (Select and Start on a USB pad).
 
 On a USB pad:
 

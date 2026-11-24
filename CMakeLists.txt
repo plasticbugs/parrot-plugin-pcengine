@@ -28,8 +28,8 @@ include(${PARROTCART_SDK}/sdk/cvplugin.cmake)
 
 # The same source makes the same file, whenever it's built: the compiler's
 # __DATE__ and __TIME__ (the build date in the binary info) come from
-# SOURCE_DATE_EPOCH, fixed here at the tested build's day, 2026-11-18.
-set(BUILD_EPOCH 1795003200)
+# SOURCE_DATE_EPOCH, fixed here at the build's day, 2026-11-23.
+set(BUILD_EPOCH 1795435200)
 set(CMAKE_C_COMPILER_LAUNCHER ${CMAKE_COMMAND} -E env SOURCE_DATE_EPOCH=${BUILD_EPOCH})
 set(CMAKE_CXX_COMPILER_LAUNCHER ${CMAKE_COMMAND} -E env SOURCE_DATE_EPOCH=${BUILD_EPOCH})
 
@@ -71,6 +71,6 @@ if(PCE_CLOCK_KHZ)
 endif()
 pico_enable_stdio_usb(pce 0)
 pico_enable_stdio_uart(pce 0)
-cvcart_plugin(pce ID parrotcart.pce NAME "PC Engine" VERSION 0.1.1 BY "Parrot Cart"
+cvcart_plugin(pce ID parrotcart.pce NAME "PC Engine" VERSION 0.1.3 BY "Parrot Cart"
               HOME /PCE OPENS .pce USES usb-host psram ICON src/pce_icon.txt FILE_ICON src/pce_file_icon.txt
               README CART-README.md)
